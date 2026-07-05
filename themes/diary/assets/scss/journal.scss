@@ -594,59 +594,68 @@ div[class*="mask"]:not(.single-column-drawer-container):not(.single-column-drawe
       display: inline-flex;
       flex-direction: column;
       align-items: flex-end;
-      gap: 0.65rem;
-      max-width: 230px;
+      gap: 0.5rem;
+      width: 270px;
+      max-width: 270px;
       margin-left: auto;
-      padding: 0.95rem 1rem 1rem;
-      border-radius: 18px;
-      background: rgba(255, 255, 255, 0.42);
-      border: 1px solid rgba(25, 118, 210, 0.1);
-      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
-      backdrop-filter: blur(14px);
+      padding: 0;
     }
 
     .nav-footer-divider {
       width: 100%;
       height: 1px;
-      background: linear-gradient(90deg, rgba(25, 118, 210, 0), rgba(25, 118, 210, 0.18), rgba(25, 118, 210, 0));
+      background: rgba(128, 128, 128, 0.12);
     }
 
     .footer-contact-pill {
-      display: inline-block;
-      padding: 0.45rem 0.72rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 0.8rem;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.72);
+      background: rgba(255, 255, 255, 0.88);
       border: 1px solid rgba(25, 118, 210, 0.12);
       color: $deep-dark-accent;
-      font-size: 0.76rem;
+      font-size: 0.8rem;
       font-weight: 600;
       line-height: 1;
       margin-left: 0.45rem;
-      transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+      transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 
       &:hover {
         color: $color-accent;
         text-decoration: none;
         transform: translateY(-1px);
         box-shadow: 0 8px 20px rgba(25, 118, 210, 0.12);
+        background: rgba(255, 255, 255, 0.96);
       }
     }
 
     .site-credit-line {
+      width: 270px;
       margin-top: 0.25rem;
-      line-height: 1.55;
+      line-height: 1.45;
       color: rgba($deep-dark-accent, 0.72);
-      font-size: 0.77rem;
+      font-size: 0.72rem;
+      text-align: right;
+    }
+
+    .site-credit-year {
+      margin-top: 0;
+      font-weight: 500;
     }
 
     .site-credit-meta {
       color: rgba($deep-dark-accent, 0.56);
-      font-size: 0.72rem;
+      font-size: 0.69rem;
     }
 
-    .site-credit-dot {
-      margin: 0 0.35rem;
-      color: rgba($deep-dark-accent, 0.3);
+    .site-credit-meta-line {
+      display: inline-block;
+      text-align: right;
+      white-space: nowrap;
+      line-height: 1.35;
     }
 
     .site-credit-powered {
@@ -1135,12 +1144,7 @@ div[class*="mask"]:not(.single-column-drawer-container):not(.single-column-drawe
       gap: 0.8rem;
       max-width: 380px;
       margin: 0 auto;
-      padding: 1rem 1rem 1.1rem;
-      border-radius: 20px;
-      background: rgba(255, 255, 255, 0.8);
-      border: 1px solid rgba(25, 118, 210, 0.1);
-      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
-      backdrop-filter: blur(14px);
+      padding: 0;
     }
 
     .nav-footer-divider {
@@ -1159,15 +1163,17 @@ div[class*="mask"]:not(.single-column-drawer-container):not(.single-column-drawe
     .footer-contact-pill {
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 0.45rem;
-      padding: 0.5rem 0.8rem;
+      padding: 0.55rem 0.9rem;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.92);
       border: 1px solid rgba(25, 118, 210, 0.12);
       color: $deep-dark-accent;
-      font-size: 0.82rem;
+      font-size: 0.84rem;
       font-weight: 600;
       line-height: 1;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
     }
 
     .footer-contact-icon {
@@ -1186,10 +1192,12 @@ div[class*="mask"]:not(.single-column-drawer-container):not(.single-column-drawe
     }
 
     .site-credit-line {
+      width: 100%;
       margin-top: 0;
       line-height: 1.7;
       color: rgba($deep-dark-accent, 0.72);
       font-size: 0.82rem;
+      text-align: center;
     }
 
     .site-credit-meta {
@@ -1197,8 +1205,14 @@ div[class*="mask"]:not(.single-column-drawer-container):not(.single-column-drawe
       font-size: 0.72rem;
     }
 
+    .site-credit-meta-line {
+      display: inline-block;
+      text-align: center;
+      white-space: nowrap;
+    }
+
     .site-credit-dot {
-      margin: 0 0.35rem;
+      margin: 0 0.2rem;
       color: rgba($deep-dark-accent, 0.3);
     }
 
