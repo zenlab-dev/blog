@@ -1,5 +1,8 @@
 # Zenlab Blog
 
+- Theme: [hugo-theme-diary](https://github.com/AmazingRise/hugo-theme-diary), bundled directly under `themes/diary`
+- Forked from [riba2534/blog](https://github.com/riba2534/blog)
+
 A personal blog built with Hugo and the [Diary](https://github.com/AmazingRise/hugo-theme-diary) theme.
 
 Site: https://blog.zenlab.top
@@ -43,8 +46,3 @@ Required GitHub Secrets:
 
 - `CLOUDFLARE_ACCOUNT_ID`
 - `CLOUDFLARE_API_TOKEN`
-
-# Credits
-
-- Theme: [hugo-theme-diary](https://github.com/AmazingRise/hugo-theme-diary), bundled directly under `themes/diary`
-- Forked from [riba2534/blog](https://github.com/riba2534/blog)
