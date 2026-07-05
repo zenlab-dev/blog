@@ -1,7 +1,6 @@
 <div id="extraContainer" class="extra-container">
     <div class="toc-wrapper">
         {{- partial "google-search.html" . -}}
-
         {{ if and (not (.Params.disableToC) ) (.IsPage) }}
         <div class="toc">
             {{- partial "toc.html" . -}}

@@ -1,14 +1,13 @@
-<!-- Please don't remove the information of theme makers. -->
-魔改自 <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> {{ i18n "by" }} <a href="https://blog.riba2534.cn">riba2534</a>
-<br>
-Fork from <a href="https://github.com/riba2534/blog">riba2534/blog</a>
-<br>
-Powered by <a href="https://www.cloudflare.com/">Cloudflare</a>
-<br>
-<!-- Because this project is under MIT licence. -->
-&copy;
+<div class="site-credit-line">
+  &copy;
 	{{ if .Site.Copyright }}
 	{{ .Site.Copyright }}
 	{{ else }}
 	{{ now.Format "2006" }} {{.Site.Title}}
 	{{ end }}
+</div>
+<div class="site-credit-line site-credit-meta">
+  <span>Fork from <a href="https://github.com/riba2534/blog">riba2534/blog</a></span>
+  <span class="site-credit-dot">&middot;</span>
+  <span class="site-credit-powered">Powered by <a href="https://www.cloudflare.com/">Cloudflare</a></span>
+</div>

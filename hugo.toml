@@ -1,6 +1,6 @@
 DefaultContentLanguage = "zh"
 dateFormat = "2006-01-02 15:04:05"
-description = "Zenlab 的个人博客，记录技术、AI 与投资研究。"
+description = "Build cool things."
 enableEmoji = true
 enableGitInfo = true
 languageCode = "zh-cn"
@@ -36,13 +36,13 @@ escapedSpace = true
 enableOpenGraph = true
 enableTwitterCards = true
 title = "Zenlab Blog"
-description = "记录技术、AI 与投资研究。"
+description = "Build cool things."
 enableMathJax = true
 enableLaTeX=true
 enableMermaid = true
 enableReadingTime = true
 # favicon = "👋"  # emoji favicon 使用下方内联方式
-subtitle = "记录技术、AI 与投资研究"
+subtitle = "Build cool things."
 enableTwikoo = false
 homePageSection = "blog"
 
@@ -94,6 +94,6 @@ url = "https://github.com/clchen-dev"
 weight = 1
 
 [[menu.footer]]
-name = "Domain"
-url = "https://blog.zenlab.top"
+name = "Mail"
+url = "mailto:mail@zenlab.top"
 weight = 2

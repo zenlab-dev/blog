@@ -50,9 +50,11 @@
     
 
     <div class="nav-footer">
-        {{partial "footer-menu.html" .}}
-        <hr>
-        {{partial "copyright.html" .}}
+        <div class="nav-footer-card">
+            {{partial "footer-menu.html" .}}
+            <div class="nav-footer-divider"></div>
+            {{partial "copyright.html" .}}
+        </div>
     </div>
     
 </div>

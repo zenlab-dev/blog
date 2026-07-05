@@ -1,6 +1,5 @@
 {{ range .Site.Menus.footer }}
-<a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
+<a class="footer-contact-pill" href="{{ .URL }}" {{ if hasPrefix .URL "mailto:" }}target="_self"{{ else }}target="_blank" rel="noopener noreferrer"{{ end }}>
     {{ .Name }}
 </a>
-<br>
 {{ end }}
